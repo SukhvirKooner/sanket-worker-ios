@@ -35,6 +35,13 @@ python3 record_walkthrough.py
 
 Output: `Walkthrough/SANKET_Walkthrough.mp4`
 
+## Layout
+
+- `SANKET/Models` and `SANKET/MockData` — domain types and the local sample data
+- `SANKET/Views` — onboarding, home, skills, training, jobs, and profile
+- `SANKET/Resources/Localizable.xcstrings` — English and Hindi copy (`generate_strings.py` writes this file)
+- `project.yml` — XcodeGen spec for `SANKET.xcodeproj`
+
 ## Notes
 
 - Front-end only — all data is local mock data in Swift
